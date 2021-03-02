@@ -21,5 +21,12 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
-  },
+    'array-bracket-spacing': ['error', 'never'],
+    'brace-style': ['error', '1tbs'],
+    'camelcase': ['error', {'properties': 'always'}],
+    'no-debugger': ['warn'],
+    'indent': ['error', 4],
+    'no-trailing-spaces': ['error'],
+    'semi': ['error', 'never'],
+  }
 };
